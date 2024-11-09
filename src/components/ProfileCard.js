@@ -1,3 +1,6 @@
+import React from 'react';
+import withPermission from './withPermission';
+
 const ProfileCard = ({ name, bio, imageUrl }) => {
     return (
         <div className="profile-card">
@@ -8,4 +11,4 @@ const ProfileCard = ({ name, bio, imageUrl }) => {
     )
 }
 
-export default ProfileCard;
+export default withPermission(ProfileCard);

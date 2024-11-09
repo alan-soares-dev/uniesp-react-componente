@@ -9,6 +9,7 @@ function App() {
           name="Beard Man"
           bio="Sempre com barba, sempre."
           imageUrl="https://placebeard.it/150x150"
+          hasPermission={true}
         />
       </header>
     </div>
